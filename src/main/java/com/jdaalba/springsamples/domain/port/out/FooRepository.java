@@ -1,6 +1,6 @@
-package com.example.demo.domain.port.out;
+package com.jdaalba.springsamples.domain.port.out;
 
-import com.example.demo.domain.Foo;
+import com.jdaalba.springsamples.domain.Foo;
 
 import java.util.List;
 import java.util.Optional;

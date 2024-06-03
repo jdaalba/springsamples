@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.jdaalba.springsamples;
 
-import com.example.demo.config.BeanConfig;
+import com.jdaalba.springsamples.config.BeanConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,7 +1,7 @@
-package com.example.demo.infrastructure.adapter;
+package com.jdaalba.springsamples.infrastructure.adapter;
 
-import com.example.demo.domain.Foo;
-import com.example.demo.domain.port.out.FooRepository;
+import com.jdaalba.springsamples.domain.Foo;
+import com.jdaalba.springsamples.domain.port.out.FooRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

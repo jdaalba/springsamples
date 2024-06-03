@@ -1,15 +1,16 @@
-package com.example.demo.config;
+package com.jdaalba.springsamples.config;
 
-import com.example.demo.domain.Foo;
-import com.example.demo.domain.cqrs.CreateFoo;
-import com.example.demo.domain.cqrs.FindAllFoos;
-import com.example.demo.domain.cqrs.FindFoo;
-import com.example.demo.domain.cqrs.FindFooByBar;
+import com.jdaalba.springsamples.domain.Foo;
+import com.jdaalba.springsamples.domain.cqrs.CreateFoo;
+import com.jdaalba.springsamples.domain.cqrs.FindAllFoos;
+import com.jdaalba.springsamples.domain.cqrs.FindFoo;
+import com.jdaalba.springsamples.domain.cqrs.FindFooByBar;
 import com.example.demo.domain.handlers.*;
-import com.example.demo.domain.port.in.CommandHandler;
-import com.example.demo.domain.port.in.QueryHandler;
-import com.example.demo.domain.port.in.QueryManager;
-import com.example.demo.domain.port.out.FooRepository;
+import com.jdaalba.springsamples.domain.port.in.CommandHandler;
+import com.jdaalba.springsamples.domain.port.in.QueryHandler;
+import com.jdaalba.springsamples.domain.port.in.QueryManager;
+import com.jdaalba.springsamples.domain.port.out.FooRepository;
+import com.jdaalba.springsamples.domain.handlers.*;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;

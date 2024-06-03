@@ -1,6 +1,6 @@
-package com.example.demo.domain.port.in;
+package com.jdaalba.springsamples.domain.port.in;
 
-import com.example.demo.domain.cqrs.Command;
+import com.jdaalba.springsamples.domain.cqrs.Command;
 
 public interface CommandHandler<C extends Command, R> {
 

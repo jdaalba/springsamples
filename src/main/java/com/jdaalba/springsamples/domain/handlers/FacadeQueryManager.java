@@ -1,8 +1,8 @@
-package com.example.demo.domain.handlers;
+package com.jdaalba.springsamples.domain.handlers;
 
-import com.example.demo.domain.cqrs.Query;
-import com.example.demo.domain.port.in.QueryHandler;
-import com.example.demo.domain.port.in.QueryManager;
+import com.jdaalba.springsamples.domain.cqrs.Query;
+import com.jdaalba.springsamples.domain.port.in.QueryHandler;
+import com.jdaalba.springsamples.domain.port.in.QueryManager;
 import lombok.RequiredArgsConstructor;
 
 import java.util.List;

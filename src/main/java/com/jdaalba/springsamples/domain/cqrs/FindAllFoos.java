@@ -1,6 +1,6 @@
-package com.example.demo.domain.cqrs;
+package com.jdaalba.springsamples.domain.cqrs;
 
-import com.example.demo.domain.Foo;
+import com.jdaalba.springsamples.domain.Foo;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

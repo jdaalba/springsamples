@@ -1,13 +1,12 @@
-package com.example.demo.controller;
+package com.jdaalba.springsamples.controller;
 
-import com.example.demo.domain.Foo;
-import com.example.demo.domain.cqrs.CreateFoo;
-import com.example.demo.domain.cqrs.FindAllFoos;
-import com.example.demo.domain.cqrs.FindFoo;
-import com.example.demo.domain.cqrs.FindFooByBar;
-import com.example.demo.domain.port.in.CommandHandler;
-import com.example.demo.domain.port.in.QueryHandler;
-import com.example.demo.domain.port.in.QueryManager;
+import com.jdaalba.springsamples.domain.Foo;
+import com.jdaalba.springsamples.domain.cqrs.CreateFoo;
+import com.jdaalba.springsamples.domain.cqrs.FindAllFoos;
+import com.jdaalba.springsamples.domain.cqrs.FindFoo;
+import com.jdaalba.springsamples.domain.cqrs.FindFooByBar;
+import com.jdaalba.springsamples.domain.port.in.CommandHandler;
+import com.jdaalba.springsamples.domain.port.in.QueryManager;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

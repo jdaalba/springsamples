@@ -1,10 +1,10 @@
-package com.example.demo.domain.handlers;
+package com.jdaalba.springsamples.domain.handlers;
 
-import com.example.demo.domain.Foo;
-import com.example.demo.domain.cqrs.FindFooByBar;
-import com.example.demo.domain.cqrs.Query;
-import com.example.demo.domain.port.in.QueryHandler;
-import com.example.demo.domain.port.out.FooRepository;
+import com.jdaalba.springsamples.domain.Foo;
+import com.jdaalba.springsamples.domain.cqrs.FindFooByBar;
+import com.jdaalba.springsamples.domain.cqrs.Query;
+import com.jdaalba.springsamples.domain.port.in.QueryHandler;
+import com.jdaalba.springsamples.domain.port.out.FooRepository;
 import lombok.RequiredArgsConstructor;
 
 import java.util.Optional;

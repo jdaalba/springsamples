@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.jdaalba.springsamples.domain;
 
 import java.util.UUID;
 

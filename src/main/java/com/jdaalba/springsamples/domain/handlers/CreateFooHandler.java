@@ -1,9 +1,9 @@
-package com.example.demo.domain.handlers;
+package com.jdaalba.springsamples.domain.handlers;
 
-import com.example.demo.domain.Foo;
-import com.example.demo.domain.cqrs.CreateFoo;
-import com.example.demo.domain.port.in.CommandHandler;
-import com.example.demo.domain.port.out.FooRepository;
+import com.jdaalba.springsamples.domain.Foo;
+import com.jdaalba.springsamples.domain.cqrs.CreateFoo;
+import com.jdaalba.springsamples.domain.port.in.CommandHandler;
+import com.jdaalba.springsamples.domain.port.out.FooRepository;
 import lombok.RequiredArgsConstructor;
 
 import java.util.UUID;

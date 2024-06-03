@@ -1,6 +1,6 @@
-package com.example.demo.domain.port.in;
+package com.jdaalba.springsamples.domain.port.in;
 
-import com.example.demo.domain.cqrs.Query;
+import com.jdaalba.springsamples.domain.cqrs.Query;
 
 import java.util.List;
 import java.util.Optional;
